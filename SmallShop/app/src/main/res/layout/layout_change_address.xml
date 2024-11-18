@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/ed_number"
+        android:hint="广东工业大学"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:text="取消"
+            android:layout_marginRight="80dp"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:text="确定"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+</LinearLayout>

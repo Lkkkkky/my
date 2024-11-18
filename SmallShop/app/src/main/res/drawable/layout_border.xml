@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent"/> <!-- 透明背景 -->
+    <stroke android:color="#000000" android:width="2dp"/> <!-- 黑色边框，宽度2dp -->
+    <padding android:top="10dp" android:bottom="10dp" android:left="10dp" android:right="10dp"/> <!-- 可选的内边距 -->
+</shape>
